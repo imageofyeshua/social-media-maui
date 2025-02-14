@@ -33,5 +33,13 @@
                     Text="Social Media App" />
             </VerticalStackLayout>
         </Grid>
+        <StackLayout Grid.Row="3" Padding="10">
+            <Button
+                BackgroundColor="White"
+                FontAttributes="Bold"
+                Text="Get Started"
+                Style="{StaticResource rounded}"
+                TextColor="{StaticResource Primary}"/>
+        </StackLayout>
     </Grid>
 </ContentPage>
