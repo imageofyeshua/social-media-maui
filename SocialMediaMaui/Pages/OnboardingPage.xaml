@@ -39,7 +39,8 @@
                 FontAttributes="Bold"
                 Text="Get Started"
                 Style="{StaticResource rounded}"
-                TextColor="{StaticResource Primary}"/>
+                TextColor="{StaticResource Primary}"
+                Clicked="Button_Clicked"/>
         </StackLayout>
     </Grid>
 </ContentPage>
