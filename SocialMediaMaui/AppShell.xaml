@@ -12,6 +12,11 @@
     Title="SocialMediaMaui">
 
     <ShellContent
+        Title="Onboarding Page"
+        ContentTemplate="{DataTemplate pages:OnboardingPage}"
+        Route="HomePage" />
+
+    <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate pages:HomePage}"
         Route="HomePage" />
